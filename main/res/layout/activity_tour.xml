@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.TourActivity">
+    <TextView
+        style="@style/tieude"
+        android:text="QUẢN LÝ TOUR"
+        />
+
+
+    <EditText
+        android:id="@+id/txtMaTour"
+        style="@style/txt"
+        android:hint="Nhập Mã Tour" />
+
+    <EditText
+        android:id="@+id/txtLoTrinh"
+        style="@style/txt"
+        android:hint=" Nhập Lộ Trình" />
+
+    <EditText
+        android:id="@+id/txtHanhTrinh"
+        style="@style/txt"
+        android:hint=" Nhập Hành Trình" />
+
+    <EditText
+        android:id="@+id/txtGiaTour"
+        style="@style/txt"
+        android:hint=" Nhập Giá Tour" />
+
+    <LinearLayout
+        style="@style/horizontal"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnThem"
+            style="@style/btn"
+
+            android:text="THÊM"
+            />
+
+        <Button
+            android:id="@+id/btnXoa"
+            style="@style/btn"
+            android:drawableLeft="@drawable/ic_delete_forever_black_24dp"
+            android:text="XÓA" />
+
+        <Button
+            android:id="@+id/btnSua"
+            style="@style/btn"
+            android:drawableLeft="@drawable/ic_update_black_24dp"
+            android:text="SỬA" />
+
+        <Button
+            android:id="@+id/btnClear"
+            style="@style/btn"
+            android:drawableLeft="@drawable/ic_clear_all_black_24dp"
+            android:text="CLEAR" />
+
+    </LinearLayout>
+    <TextView
+        style="@style/tieude"
+        android:text="Danh sách"
+        />
+    <ListView
+        android:id="@+id/lvDanhSach"
+        style="@style/lv"> </ListView>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="1000"  android:drawable="@drawable/xeone"></item>
+    <item android:duration="1000"  android:drawable="@drawable/xetwo"></item>
+    <item android:duration="1000"  android:drawable="@drawable/xethree"></item>
+    <item android:duration="1000"  android:drawable="@drawable/xefour"></item>
+    <item android:duration="1000"  android:drawable="@drawable/xefive"></item>
+</animation-list>
